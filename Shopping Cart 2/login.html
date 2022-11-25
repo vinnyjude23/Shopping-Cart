@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="form-container">
+      <form action=""method="post">
+       
+        <h1>Register here</h1>
+
+ 
+        <input type="text"name="name"required placeholder="Enter your name"><br>
+        <input type="email"name="email"required placeholder="Enter your email"><br>
+        <input type="password"name="password"required placeholder="Enter your password"><br>
+        <input type="password"name="cpassword"required placeholder="Confirm your password"><br>
+        <select name="user_type"><br>
+            <option value="user">User</option><br><br>
+            <option value="admin">Admin</option><br>
+        </select>
+        <input type="submit"name="submit"value="register now"class="form-btn">
+        <p>Don't have an Account? <a href="register.php">Sign Up</a>
+      </form>  
+    </div>
+</body>
+</html>
